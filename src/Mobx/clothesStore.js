@@ -20,15 +20,13 @@ export function createClothesStore() {
         size: item.size,
       };
       this.props.toast = true;
-
-      if (this.props.itemsCnt < 3) this.props.itemsCnt++;
+      this.props.itemsCnt = 0;
+      Object.keys(this.shirt).length !== 0 && this.props.itemsCnt++;
+      Object.keys(this.pants).length !== 0 && this.props.itemsCnt++;
+      Object.keys(this.shoes).length !== 0 && this.props.itemsCnt++;
     },
     handleCompletedSet() {
-      if (
-        Object.keys(this.shirt).length !== 0 &&
-        Object.keys(this.pants).length !== 0 &&
-        Object.keys(this.shoes).length !== 0
-      ) {
+      if (this.props.itemsCnt === 3) {
         console.log('if yes', this.props.completedSets);
 
         this.props.diffTime =

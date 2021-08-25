@@ -67,7 +67,7 @@ const Application = (props) => {
         <Col className='sidebar-container' xs={12} md={3} xl={2}>
           <ApplicationDrawer />
         </Col>
-        <Col xs={12} md={9} xl={10}>
+        <Col className='pt-3' xs={12} md={9} xl={10}>
           {props.children}
         </Col>
       </Row>

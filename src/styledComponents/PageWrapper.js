@@ -8,7 +8,7 @@ const PageWrapper = ({ title, children, type }) => {
   const icons = { shirt: shirt, shoes: shoes, pants: pants };
 
   return (
-    <Container>
+    <Container className='p-0'>
       <Row>
         <Col>
           <h1>

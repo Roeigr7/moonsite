@@ -53,10 +53,14 @@
     position: absolute;
     min-width: 100%;
     z-index: 99999;
-    background: white;
+    background: #f7f7f7;
     min-height: 100vh;
   }
   .react-bootstrap-drawer {
+    height: 50px;
     background-color: $primary;
+  }
+  .sidebar-container {
+    height: 50px;
   }
 }

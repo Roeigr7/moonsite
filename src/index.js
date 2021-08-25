@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './custom.scss';
 import { ClothesProvider } from './Mobx/ClothesContext';
-
+import './custom.scss';
 ReactDOM.render(
- 
-    <ClothesProvider>
-      <App />
-    </ClothesProvider>
-,
+  <ClothesProvider>
+    <App />
+  </ClothesProvider>,
   document.getElementById('root')
 );
 

@@ -7,7 +7,6 @@ $light: #e3e5e9;
 $dark: #333d4e;
 $font-family-sans-serif: 'Heebo', sans-serif;
 //import all bootstrap styles
-@import '~bootstrap/scss/bootstrap.scss';
 
 h1 {
   text-align: center;
@@ -30,3 +29,5 @@ span {
   font-weight: 400;
   color: $primary;
 }
+
+@import '~bootstrap/scss/bootstrap.scss';

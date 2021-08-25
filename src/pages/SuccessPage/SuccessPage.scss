@@ -1,6 +1,7 @@
-.img-success{
+@import '../../custom.scss';
 
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        width:150px;
-    height:150px;
+.img-success {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 150px;
+  height: 150px;
 }

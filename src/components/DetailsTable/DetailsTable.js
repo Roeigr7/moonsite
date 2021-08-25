@@ -51,7 +51,7 @@ const DetailsTable = () => {
           </tr>
         </tbody>
       </Table>
-      <div className='d-flex flex-column align-items-start'>
+      <div className='d-flex flex-column align-items-center'>
         <p style={{ fontWeight: 'bold' }}>
           Sum of pants and shoes:{' '}
           <span className='text-secondary'> {sumPantsAndSize}</span>

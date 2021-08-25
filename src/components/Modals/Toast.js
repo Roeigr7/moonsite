@@ -12,7 +12,8 @@ const Toast = () => {
       style={{
         maxWidth: '90%',
         position: 'absolute',
-        bottom: '10px',
+        top: '10px',
+        zIndex: '99999',
         right: '10px',
       }}
     >

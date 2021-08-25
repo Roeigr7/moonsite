@@ -39,18 +39,18 @@ const ItemPage = ({ title, type }) => {
 
     for (let i = 0; i < data.length; i++) {
       if (
-        data[i].name.toString().toLowerCase().includes(term) ||
-        data[i].brand.toString().toLowerCase().includes(term)
+        data[i].name.toString().includes(term.toLowerCase()) ||
+        data[i].brand.toString().includes(term.toLowerCase())
       ) {
         tempArr.push(data[i]);
       } else {
         for (let j = 0; j < data[i].colors.length; j++) {
-          if (data[i].colors[j].toString().toLowerCase().includes(term)) {
+          if (data[i].colors[j].toString().includes(term.toLowerCase())) {
             tempArr.push(data[i]);
             break;
           } else if (j === data[i].colors.length - 1) {
             for (let k = 0; k < data[i].sizes.length; k++) {
-              if (data[i].sizes[k].toString().toLowerCase().includes(term)) {
+              if (data[i].sizes[k].toString().includes(term.toLowerCase())) {
                 tempArr.push(data[i]);
                 break;
               }
@@ -72,7 +72,8 @@ const ItemPage = ({ title, type }) => {
           <Row className='justify-content-center'>
             <Col xs={12} className='text-center'>
               <h3>
-                <span>{data && data.length}</span> items were found
+                <span>{filteredData && filteredData.length}</span> items were
+                found
               </h3>
             </Col>
             <Col md={6} className='text-center'>

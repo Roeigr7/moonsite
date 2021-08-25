@@ -1,3 +1,5 @@
+@import '../../custom.scss';
+
 .modal-container {
   transform: translate(10%, 0%) !important;
 }
@@ -18,7 +20,4 @@
   .modal-container {
     transform: translate(0%, 0%) !important;
   }
-}
-
-.toast {
 }
