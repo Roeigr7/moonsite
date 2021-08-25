@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/moonsite/static/css/main.0aa91f91.chunk.css",
-    "main.js": "/moonsite/static/js/main.61800034.chunk.js",
-    "main.js.map": "/moonsite/static/js/main.61800034.chunk.js.map",
+    "main.css": "/moonsite/static/css/main.b799a94d.chunk.css",
+    "main.js": "/moonsite/static/js/main.0e236181.chunk.js",
+    "main.js.map": "/moonsite/static/js/main.0e236181.chunk.js.map",
     "runtime-main.js": "/moonsite/static/js/runtime-main.91e43b40.js",
     "runtime-main.js.map": "/moonsite/static/js/runtime-main.91e43b40.js.map",
     "static/css/2.4831e6ee.chunk.css": "/moonsite/static/css/2.4831e6ee.chunk.css",
-    "static/js/2.0f0836a5.chunk.js": "/moonsite/static/js/2.0f0836a5.chunk.js",
-    "static/js/2.0f0836a5.chunk.js.map": "/moonsite/static/js/2.0f0836a5.chunk.js.map",
+    "static/js/2.e11f8f5d.chunk.js": "/moonsite/static/js/2.e11f8f5d.chunk.js",
+    "static/js/2.e11f8f5d.chunk.js.map": "/moonsite/static/js/2.e11f8f5d.chunk.js.map",
     "static/js/3.4f43127a.chunk.js": "/moonsite/static/js/3.4f43127a.chunk.js",
     "static/js/3.4f43127a.chunk.js.map": "/moonsite/static/js/3.4f43127a.chunk.js.map",
     "index.html": "/moonsite/index.html",
     "static/css/2.4831e6ee.chunk.css.map": "/moonsite/static/css/2.4831e6ee.chunk.css.map",
-    "static/css/main.0aa91f91.chunk.css.map": "/moonsite/static/css/main.0aa91f91.chunk.css.map",
-    "static/js/2.0f0836a5.chunk.js.LICENSE.txt": "/moonsite/static/js/2.0f0836a5.chunk.js.LICENSE.txt",
+    "static/css/main.b799a94d.chunk.css.map": "/moonsite/static/css/main.b799a94d.chunk.css.map",
+    "static/js/2.e11f8f5d.chunk.js.LICENSE.txt": "/moonsite/static/js/2.e11f8f5d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/moonsite/static/media/bg.7b1392cd.jpeg",
+    "static/media/logo.a36fe27d.png": "/moonsite/static/media/logo.a36fe27d.png",
     "static/media/pants.fa7625a8.png": "/moonsite/static/media/pants.fa7625a8.png",
     "static/media/shirt.714e25d5.png": "/moonsite/static/media/shirt.714e25d5.png",
     "static/media/shoes.641653ff.png": "/moonsite/static/media/shoes.641653ff.png"
@@ -22,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.91e43b40.js",
     "static/css/2.4831e6ee.chunk.css",
-    "static/js/2.0f0836a5.chunk.js",
-    "static/css/main.0aa91f91.chunk.css",
-    "static/js/main.61800034.chunk.js"
+    "static/js/2.e11f8f5d.chunk.js",
+    "static/css/main.b799a94d.chunk.css",
+    "static/js/main.0e236181.chunk.js"
   ]
 }
