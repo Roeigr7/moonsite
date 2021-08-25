@@ -1,0 +1,29 @@
+.colors-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  align-items: flex-start;
+}
+.card-title {
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid rgba(245, 140, 84, 0.3);
+}
+.brand-title {
+  font-size: 1.2rem;
+}
+.sizes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 1200px) {
+  .colors-container .sizes-container {
+    max-width: 40px;
+  }
+}

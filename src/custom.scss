@@ -1,0 +1,32 @@
+///overwrite theme var
+
+$primary: #db9d43;
+$secondary: #b2362c;
+$third: #facf51;
+$light: #e3e5e9;
+$dark: #333d4e;
+$font-family-sans-serif: 'Heebo', sans-serif;
+//import all bootstrap styles
+@import '~bootstrap/scss/bootstrap.scss';
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+  color: $primary;
+  font-weight: bold;
+}
+
+p {
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+h5 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+span {
+  font-weight: 400;
+  color: $primary;
+}

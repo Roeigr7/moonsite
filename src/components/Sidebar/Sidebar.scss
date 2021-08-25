@@ -1,0 +1,62 @@
+@import '../../custom.scss';
+
+.header {
+  color: $secondary !important;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.header-active {
+  background-color: transparent;
+}
+.react-bootstrap-drawer {
+  min-height: 100% !important;
+  background-color: $light;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+.react-bootstrap-drawer-toc {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+  overflow: visible;
+}
+.page-container {
+  min-height: 100vh;
+}
+.nav-link {
+  a {
+    padding: 0 0 0 0;
+    margin: 0;
+  }
+}
+
+.sidebar-container {
+  align-self: stretch;
+  padding: 0 !important;
+}
+.hamburger {
+  align-self: flex-start;
+  margin-left: 7px;
+}
+.header-title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .react-bootstrap-drawer-toc {
+    position: absolute;
+    min-width: 100%;
+    z-index: 99999;
+    background: white;
+    min-height: 100vh;
+  }
+  .react-bootstrap-drawer {
+    background-color: $primary;
+  }
+}
